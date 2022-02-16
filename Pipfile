@@ -1,0 +1,32 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+openpyxl = "*"
+numpy = "*"
+nltk = "*"
+jieba = "*"
+tqdm = "*"
+wordcloud = "*"
+matplotlib = "*"
+pyqt5 = "*"
+tensorflow = "*"
+ckiptagger = "*"
+fasthan = "*"
+fastnlp = "*"
+torch = "*"
+bert-extractive-summarizer = "*"
+spacy = "*"
+transformers = "*"
+neuralcoref = "*"
+gensim = "==3.8.3"
+snownlp = "*"
+flask = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
